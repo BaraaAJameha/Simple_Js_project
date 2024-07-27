@@ -1,0 +1,89 @@
+@media screen and (min-width:1px) and (max-width:1365px) {
+
+}
+@media screen and (min-width:1366px) {
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("wallpaperflare.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 16px;
+  max-width: 400px;
+  height: 300px;
+  margin-top:8%;
+
+}
+
+.button-container {
+  text-align: center;
+  background: rgba(162, 188, 205, 0.804);
+  height:100;
+  width: 250;
+  padding: 15px;
+
+}
+
+.btn {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background: rgba(64, 8, 49, 0.5);
+
+}
+
+.btn:hover {
+  background-color:rgb(62, 100, 167);
+}
+
+.reset {
+  position: absolute;
+  text-align: center;
+  background-color:rgba(255, 238, 0, 0.957);
+  color:black;
+  font-size: 16px;
+  width: 100px;
+  top: 80%;   
+  left: 50%;
+  right:50%;
+}
+
+.counter {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 20px;
+  font-size: 18px;
+  background-color: rgb(225, 225, 107);
+  color: black;
+  text-align: center;
+  width: 200px;
+
+}
